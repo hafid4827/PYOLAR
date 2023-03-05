@@ -1,5 +1,10 @@
-from requests import request
+""" 
+this is logic with request module consumer api 
+:tokens request 100
+:access_key default (MdWi6mnaCJhCjlVZigIfiKqThnKKYq2f)
+"""
 
+from requests import request
 access_key = "MdWi6mnaCJhCjlVZigIfiKqThnKKYq2f"
 from_convert = "COP"
 to_convert = "USD"

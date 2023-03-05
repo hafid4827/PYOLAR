@@ -12,6 +12,7 @@ def console_option_menu() -> None:
     print(Fore.CYAN + "(2) currency exchange")
     print(Fore.CYAN + "(3) price difference")
     print(Fore.RED + "(4) exit", end="\n\n")
+    print(Fore.MAGENTA + "=" * 50)
 
 
 def console_option_value_currency() -> None:
@@ -26,6 +27,7 @@ def console_option_value_currency() -> None:
     print(Fore.CYAN + "(3) exchange")
     print(Fore.CYAN + "(4) number of repetitions")
     print(Fore.RED + "(5) back", end="\n\n")
+    print(Fore.MAGENTA + "=" * 50)
 
 
 def console_options_currency_exchange() -> None:
@@ -39,6 +41,7 @@ def console_options_currency_exchange() -> None:
     print(Fore.CYAN + "(2) to")
     # tarea voltear la divisa
     print(Fore.RED + "(3) back", end="\n\n")
+    print(Fore.MAGENTA + "=" * 50)
 
 
 def console_options_price_difference() -> None:
